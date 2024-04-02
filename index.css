@@ -1,0 +1,79 @@
+body {
+            font-family: "Roboto", Verdana, Arial, sans-serif;
+            font-size: 100%;
+            background-color: #ECEFF1;
+        }
+        section {
+            background-color: white;
+            margin: 1em 4em 1em 4em;
+            border: solid 1pt black;
+        }
+        section h3 {
+            color: white;
+            padding: 0.75rem;
+            background-color: #263238;
+        }
+        .status {
+            border-radius: 0.25rem;
+            padding: 3px;
+            color: white;
+        }
+        .status-processing {
+            background-color: #E65100;
+        }
+        .status-shipped {
+            background-color: #4CAF50;
+        }
+        .status-pending {
+            background-color: #03A9F4;
+        }
+        /* Table formatting */
+        .order-table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        .order-table th, .order-table td {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+        .order-table th {
+            background-color: #f2f2f2;
+        }
+        /* Form formatting */
+        form {
+            margin-top: 20px;
+        }
+        form label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        form input[type="text"], form select, form input[type="date"] {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            box-sizing: border-box;
+        }
+        form button {
+            padding: 10px 20px;
+            background-color: purple; /* Changed to thick purple */
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        form button:hover {
+            background-color: #6A1B9A; /* Hover color */
+        }
+        /* Progress bar */
+        .progress-bar {
+            width: 100%;
+            height: 20px;
+            background-color: #ddd;
+            border-radius: 4px;
+            margin-bottom: 10px;
+            overflow: hidden;
+        }
+        .progress-bar-inner {
+            height: 100%;
+            background-color: #03A9F4;
+        }
